@@ -13,3 +13,7 @@ For dataset configuration, self.to_tensor and self.seq need to be set for differ
 To test your model, run val.py file. Set the same hyperparameters used in train.py and set the pretrained model path. Firstly run main, croped2full_pred and evaluate function to get a nii and csv output. Secondly, you can run ensemble function to ensemble mutiple models to get a better result.
 
 ## Pretrained models
+As the model file is too large to upload, we upload to BaiduYun disc
+BaiduYun disc：https://pan.baidu.com/s/1Ux-g0YVDvrTmE7bMLT9VJw 
+password：a0o7
+It contains all used model in StructSeg2019, 5 fold models of both coarse segmentation stage and all organs segmentation of fined stage.
